@@ -1,0 +1,340 @@
+{
+  "hero": {
+    "width": 2400,
+    "height": 1602,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "A young woman presenting her ideas to a group of peers in a bright meeting room",
+    "focus": "78% 40%",
+    "lqip": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAACQBACdASoYABAAPu1iqU2ppaQiMAgBMB2JZQDE2YwmtWdptyLaOpPEzUhjmQAA/gW9FYEBZ709myFvhbFzu75eJIE8bEEyOyBXEw+LmB/dQfvRZZ3qooxhaqa76c+fQcQOJ4m+4ZumctU2pFnDoZLRtymMSd4J3Y/oJRrQKlemYvqytea3sD2m8yGAYkOtxoUglzp+HANgAAAA"
+  },
+  "pathway-learn": {
+    "width": 2400,
+    "height": 1350,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "Two schoolgirls in uniform writing in their notebooks at a classroom desk",
+    "focus": "45% 55%",
+    "lqip": "data:image/webp;base64,UklGRtIAAABXRUJQVlA4IMYAAAAQBACdASoYAA0APu1iqU2ppaQiMAgBMB2JbACdABsu0o+CtwbSR2f87AD+1yVZz56nWPronrX7ABdVgAHyX+bp1RSnwVU96HMwewltPTLVR8s8DqbkcxOdhat9212QgZwXGxDT5H/AygswVf76Wx7R1CnXU2EI6A9/V6n6+brZA8d190/BbhLlhJclt4Z0vEKSgVRUC9/QZs9w3JHtb2Q35cgydQeSU++f4r8j2n5VHstY6/P/49L/+NjImv2QPItMcZZgAAA="
+  },
+  "pathway-earn": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "Two women smiling as they work at computers in their workplace",
+    "focus": "42% 50%",
+    "lqip": "data:image/webp;base64,UklGRsIAAABXRUJQVlA4ILYAAACwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JagCdMoMh+n/FsiqyKJzocdFd0ZM4AP6tlf+yCUzd1YdXUK5q8hNVo1j7ThUwt7ekrNZsh+pj4LXL9lbHmYBFjQdghiaz0Q5iSGujWiyRaeaLXuX0whRbC0RK9BtEcKwbnDAvMdRDOnpqrDP5zoIZZ/We5Qr5trITmQLawWgA7Jxy2/NXyqs9NeMtaHaV+rvy3cxDSJe/NpU9wEYAAA=="
+  },
+  "pathway-lead": {
+    "width": 2400,
+    "height": 2785,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "A young woman running her own market stall of handmade crafts",
+    "focus": "60% 35%",
+    "lqip": "data:image/webp;base64,UklGRmABAABXRUJQVlA4IFQBAACwBwCdASoYABwAPu1krU+ppSQiMBgIATAdiWwAnTLjdPfQzlsWeMstzQKe7QeeJty52j3n1TEKgDZk6AQq2S+cngg55VYAAP4BgongwtUt+gqnyjdtUEpZyahLHfNCwWNDK4QK5jFvkNbTJANdb38cgoWKzHEimdfQXMswDH/LbXZyjbRKbdu0XT8kEA8JJutilVNErGHO+bc3kaXbkcQJnSuxOq1P121vu+j0Knz/+x7NXbDkgCx+oJ79fFc4h2QMeF+1Ptc4bYz+VzzA/eQ/oJ95a1ZOVIeM+4ksFirJNON0k57HgCzdzkyTgK5dDtgQFEjPqUnOG59jF/qEp+SE0c56Qymwa/dqPOBjRY27XbNcivk6Tm3vJYJHzrkgq7TaipZftTjNyrQ4oDfp3/XtinZB7Y7dfzBE5ppIwojsnT+P6f1IDB2jz/+jkDCDZJGygAAA"
+  },
+  "prog-schools": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "Children laughing together against a colourful alphabet wall at school",
+    "focus": "50% 72%",
+    "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBgbsYdWniMYiSlP1lnEm1gA4KWUrHUY2986gyE63C4D0bhCa1NL327kiLcRMmjyDDzUby2RLK+pS4BQxDu3wWkg9xkbBX+ZSCzOFgScsfOrRIiM3GkJ/pcXL61yd7jgJIpw5GPoNScXenjPodE8GFwz4YRa5UCji9t79onAAA=="
+  },
+  "prog-padho-aage": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "Schoolgirls in uniform listening attentively in class",
+    "focus": "35% 50%",
+    "lqip": "data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYgCdAYvqzrLiH2IZIJN6RiiMXAD9vfa9VLZ8v/6hQPTJp5KwCq/Ol1lec82X+orMJn7vxryZlHCj3bZIQf1+KsDNH4JqM0Qp2uDx5qZW/BzPSYj2a2E+vaDbNP1dQoaPqtkmbVLQjuD/aXbulCX9/D/DNWvTPDJjK/MTRQGbCT74izEQW7YdlpeK5vS+Ml1g87G1SxQM4PJI1A31eRcAAAA="
+  },
+  "prog-skillup": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "College students sharing a laptop and books on their campus lawn",
+    "focus": "50% 70%",
+    "lqip": "data:image/webp;base64,UklGRs4AAABXRUJQVlA4IMIAAADwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYgCdMoBugLUnZSkvcnwmhS1FiUQWQZAA/sXpO1MSTs0eQLkY9m94f9sb+SbLpoG3Fs2syUqnKJaP3K3Ke/RDs75TmXXrhmHjC2cbLKH3wnwL76cW+zX3zNhN/1q9MJvppqN++z0+iUMchbqxlczVwN6i4rM+8Ey1hIqoommn5+Rs15ByfxG5E30UgsHmlyHAMteULEe8DAFAhcV6XE2uuOWHZsiAGkAAAA=="
+  },
+  "prog-career": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "Young professionals taking notes during an industry masterclass",
+    "focus": "62% 50%",
+    "lqip": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQAALkolEyOm5FtqyPfHbkbHAAP7v0YG+oMtLOaqX93dI8yaqhGDdfbSYPQRGHcxXXZn5pHgny7yS85pkYMVOWXQXlMCZ1q3QO2vjYIFJfrVHW2mB93RAPd2Cgg/KIbYIHhbEbT0tfDtCTftJ6WFd1Ojg29Z14yBfQYQ11bXapkDyGIfXyxFWc4ouAA=="
+  },
+  "prog-her-rise": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "Young women working together on a laptop",
+    "focus": "50% 55%",
+    "lqip": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdG1/DyGmgJHRWT4gh5qwAAP6hcU7jWbTmM4xjc8YJvex7M2uWAKa7zUZitepUphPpeugtBmfr6ey54n/9PWrCTqzJQ9xBkKywq8+N25jm4BNxWNtmYZRqN50cWMwRB4YdGH0Qodx3ABhV64oCpNGRFCjGJv/msQze8h+AMqgzCNm1yFHEGp+o2wz0T8c9/C3lloFaZaO5P50ZWCC4JZL+oOOwOwtFH1pqjb7vycdQAAA="
+  },
+  "prog-founders": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "Two young founders mapping out a startup idea on a whiteboard",
+    "focus": "45% 55%",
+    "lqip": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBWAA9LWnP5w4Q6udyeaOgD+0mRqHVbfU7C6vwIYWytLpsud3DvtN6+K/8XxIZjeS5hu511C1LY3/Apjh8olXA4dsYyR1CA2p6yGvEedDSBKBriwpVCwsV4NjLO/5aScTUsjPTfAOROe6X8XVb7iUxbnnZTMW1RKOkaaSAA="
+  },
+  "focus-girls": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "Girls and women learning together in a colourful rural classroom",
+    "focus": "55% 55%",
+    "lqip": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoAvQTPoY5a8BJVSvZgA/l6iOrjscCgBlSri0snWafMPmqg0p4c7tVlYbQ8DxT254M3/1O41OV3K1DpIt5iQjb1SppXr0dmoZ5qVjfDKmHb9yjXjompaTDAC1EQ37fjOnmMMmeOg/NBQhBZ+Q2iqx6PyRh/apg8sqAIp2y4TsbfSyp70WDIxMo72EiwSgC7x5TCHpHAA"
+  },
+  "focus-career": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "Young adults attending an interactive session led by a trainer",
+    "focus": "40% 60%",
+    "lqip": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbAC1GoAlvRJwYaRvhb7M6y/wAPhfY7j/oDP1cw1LFnlaxNGmNl3zhHUTUm78TezjYPtBGtbVbwdcb00WPqNQsh1lk29CM5ZltCoip8nYT9AbWhccHZdGBw9wS8UWdKHEj/QZ1dP28dSpw380Lup5u615ea9sze9ZXBG4Wjsm17+mWStP2TzeEuWdng1IXJ8C0bpMAAA="
+  },
+  "focus-founders": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "Participants listening to a speaker at a founders' workshop",
+    "focus": "55% 50%",
+    "lqip": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQAB8ujtEpbjR2GujapUmGkAA/u+gwgpb+aenILLAW7GFMFjZ7ERGckBkKnLMGnTHHVznp1WU/7vsgNDZJO9lLrFRZWTNUsZ1iIzoMf1q8olY3GqHV+iwd/Q0Jytz5T8RVf7Zmw/ncfu/LsgA4Hdctm7mwL8O8MaRfkHalckgzT+YNHFI60xa6V7MLWiBNS+u/hzySDAAAA=="
+  },
+  "lab-ai": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "Students learning in a modern lab classroom with an interactive display",
+    "focus": "55% 60%",
+    "lqip": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAACQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYwC+SdwA9IefiO0BmYwrxJFpLwAA/rUH4zKAthLF0bsKllNo6rN+rH1cADSk4t8P5s8aBXkrIH/nplrrwGRMNw4WVYb5Pk5rMDxiF9IJqq5rxCrO/p7WssT0X2JMP7R0hTfSv0EmkJn5DBzT6J8ltL0YW1mwyONNPxRS1mpXwmzDlxrPOWcdQAA="
+  },
+  "lab-virtual": {
+    "width": 2400,
+    "height": 3600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "A young girl learning on a smartphone beside green fields",
+    "focus": "45% 42%",
+    "lqip": "data:image/webp;base64,UklGRhgBAABXRUJQVlA4IAwBAADwBgCdASoYACQAPu1oq1AppaOiqrgMATAdiWYAwOAIAFDiMbVFx2iy+9QgjXinQskFcJd/UXmjyTVQmtKsLSDAAP7trR8fbRd8lp7l6AD2DmBXDrtvKo++2CbFB3CPWRinLGErsQt0wRbpDWy4k+T/nOzhsSFK02srWbWokY+ur+8hU8P70QeySvNwtkTQglKexVs5I/YjecG+iJkQBTjq3fSKAk69t0vX7vVmeDc5N0nMFOmvsMEsO9V6hrc5woLrBrM7bbcShLfETDt1itrEihpeWvNVznd9VIY9USmduCsuqmEr23qhQJcog8MM9dkWlxHlG/f0kaDKTzELM/cfleZfqUbCYbBPoAAA"
+  },
+  "lab-innovation": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "Students building and testing electronics projects in a hands-on lab",
+    "focus": "55% 50%",
+    "lqip": "data:image/webp;base64,UklGRsgAAABXRUJQVlA4ILwAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZACdMoAlrw5ttfoRRF8iUSxAAPaix7NhbL+z9F4Ba22wTw7HqvaseIACzlNLH8zh7wK4qMLK6gmCzak5wVJ/ZmyOfTZu28gFuLLxDAyssPMvZPAVbiOLZvYIVee0luQ/Y2+L0sbAbINfpQF+7ojfW1DSEqnamh0vyOwqKTfJdo8/DQlxlHVcfF+uyj6Ej4rGMoRJ1H9XrSxSliD6A1Nw9q1AAA=="
+  },
+  "ai-sustainable": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "A woman driving a tractor across a farm field",
+    "focus": "55% 45%",
+    "lqip": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZACdMoADC2lVn8AKurZfSZE8QAD+79ZT7CKT9V3nTKfForFYWAGL1n3IVvhbK9UQuyeoVCNhK40ExrnBPd+Lci5tSqDCf7D0YDUvkRNwD/AC5nYqCD/qF3/PyMVolWUWawq8ndrbMEMZ6GQJMqTgx4ftWdFVCqLRjClV6K9p6dCBkpCrvl60tdkgAA=="
+  },
+  "ai-health": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "Young researchers working with microscopes in a medical lab",
+    "focus": "40% 45%",
+    "lqip": "data:image/webp;base64,UklGRt4AAABXRUJQVlA4INIAAADQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBdgZYJygYFwGhFiLu4JULWn40ghwADeVtY4d23SBVIxni0w/a7M27tNuhFmkM8+1S/aUcF7ooVWe6LeGe7zm64eiO1oarnUZcRb3eJCPtxvGh/lc/UUEzv+SQujslSSDxl8PyaXA1dRMnUmRAYCN9Q7LOOH8tm61YWBjoESRJeQ8dQR9yPYC99CEt1WawJ4TaYBEhRo9lP9DALu1KE20oHGuos1fcD0DjZZkeQ+eAAFIrlEahEXAAA="
+  },
+  "ai-fellows": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "A young developer writing code at his desk",
+    "focus": "65% 45%",
+    "lqip": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYwC7AYxY31fRXrligiw2zLebVAD+6yLtFx4ZSHjK1Cocnl876P1mZg+NmirMPvFrQko2x2XDsbki9Uz+30e7B5tq9WIdcMbCRZ59HtyFM5hwkTzsKghlco3jJf6qKYL3k78gkj4Qr0On7e9d7mQb2zanDj7txmT/VR/beIVApkusFFIziasS3fJISWlN7JqRRCdZVl1yXgAA"
+  },
+  "story-learn": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "A young woman reading a book in a library",
+    "focus": "72% 40%",
+    "lqip": "data:image/webp;base64,UklGRsgAAABXRUJQVlA4ILwAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOgMZoUhj+DNRc6Qe/d2N+4AAD+t4lVZdNZ6GqsxbKcKRd7yDmh3zK2yOqRAaEX9i3Xx7MGP0u0mnVviaNeTQO6J9ms5t9Xl1ck98qkjJn6Dh/jljp/ICh2uCt5jR32/fsDuQVd5Doz45lNFj1NunPTkeuJcKeE17uIYgJ/ocGpnElLKSeRQGLLkB/XXUUgE44ME7gYHaFXQ6uUXfs+0MAAAA=="
+  },
+  "story-earn": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "A young woman focused on her work at an office computer",
+    "focus": "35% 40%",
+    "lqip": "data:image/webp;base64,UklGRsIAAABXRUJQVlA4ILYAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbAC7ACPyclmz4+YqYR66zhBgAP7SVwpRh7VJtIE9hqDsNC/rxSLsjIDXwocVIuKHTv2vvU78ppHptyUb1j2nxI5vj1/Fslix2FKku49GiAXNJ7hvHEqY+N/q6XL7WzXIKKi9I8i9yk8ok+OO+KakiCXfv+04c877vyYQF2vkmeWY9IShZp0uEhue7RP+jEHUvgdeSb5h56J3VwAAAA=="
+  },
+  "story-lead": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "Two women at their sewing machines in a tailoring workshop",
+    "focus": "50% 52%",
+    "lqip": "data:image/webp;base64,UklGRtwAAABXRUJQVlA4INAAAADQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoET/kVqKVLTJ94PHlcjCrD3AADLLAQpGpUN5w07XrSj1R5aojs08d1jyNBfyx0t6eJpeSFmLrtYRSX4y1ebaZf16MpupoOOYH4ktOfQyWWRpkI+mOe7goxx2oqKeg1PXwxkk2QsucEDygmPKjn0n97p2Yba2B7dQ+yNXc+j6o3zXfieYQ/Tgo2l5mBjuV3fUovNeTOGRQYXx9BLG4W5sQAnCWx1gTf1Dl8/1wmtvfhp9ZgA"
+  },
+  "community": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "A group of college students sitting together on their campus",
+    "focus": "55% 60%",
+    "lqip": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYgCdACP6tHVEXRzfpLq1IWdtQAD+zyq7CXegLdsN4U3gd7xnU2k0QW0pdtkJmSCfBNaFXSXEp2fiE7TDfPVYwIl3i6vViUVXlAP5rpKF30+xaLt6aQkQwroU3TmQ7RrLuK18iN92HyOrHki7GwXYes6ErIOSkIzASKpwLY5vQpz2g2wlCUrSs6ZvOx8J50zIfoAA"
+  },
+  "impact-map": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "A schoolgirl pointing at a map of India in her classroom",
+    "focus": "45% 45%",
+    "lqip": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoAlxRIRz6ekv/4Xw7cAAP7rWpeUAyIE39O4R0/+oy+iEyJ6TvlztUaeX7N3qixkiNrA3RWxB225HgpQaou/vr8Ge+hjIHXfLTHfoclw++UF4F9q0i1qnrT89kYeOCHXDZuf6AgLZMLjdSw/Uu+jl5ULD1SqaS2tLnVrmTj7bpePqQCNIZjkgNQAAAA="
+  },
+  "scholar": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "Schoolgirls in uniform seated in a classroom",
+    "focus": "45% 62%",
+    "lqip": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOmUAS1AeI1ZpjyDdX15QAAzj9YJw9EE3eMMdTGh4YZ+2srAOmbmIJwRj/IdP/peQ7JBaY9h+kSMfv1wSRnZEyx2e2hQyFAS8VvXh/3z645QAlwNsMsznBUWpzfVBW9+6TKJEAlICmFwUA6s3Eh/03StuMgnNXbC/lP6vBS2WbLVzlNz+kGQJZMHnVN1aDQdaoUoCAAAA=="
+  },
+  "women-livelihood": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "alt": "A woman smiling at her sewing machine in her own workshop",
+    "focus": "60% 45%",
+    "lqip": "data:image/webp;base64,UklGRswAAABXRUJQVlA4IMAAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdL1yagJn0OcLA63vq6U7ggAD86EmuDZIhCIeCo8GOJVBcWTzRlIqeUCYzcmHsUQuiL8WJFQzYI1t+IBXrShxtpyxN0ifBT1C+myD5GnWM9AZUE6Qy3Kti/LOVmjmHcY697dIYfezxhHPzH9ipRcPfjaKl4GVoXYe4/AUN+fYGFS9OleCkhWe6cXOl6neEcpGQUN8eCYU+At/wVvPzt1kLSriAAAA="
+  }
+}
