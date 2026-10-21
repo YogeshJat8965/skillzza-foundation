@@ -44,7 +44,7 @@
 1. **4 petals:** preloader bloom, leaf-shaped photo masks, menu aur card accents
 2. **Star with rays:** twinkle animation, CTA sparkle
 3. **Reaching figure:** Pathway section ka journey marker
-4. **Tagline style:** spaced grey caps eyebrows (`—— OUR PROGRAMMES ——`), aur lists mein red/blue dot separators
+4. **Tagline style:** spaced grey caps eyebrows (`-- OUR PROGRAMMES --`), aur lists mein red/blue dot separators
 5. **Wordmark gradient:** progress bar, underlines, donate band
 
 ---
@@ -55,13 +55,13 @@
 
 | Menu | Card title | Description | CTA | Columns |
 |---|---|---|---|---|
-| About Us | About Us | Who we are, why we exist and the people behind the mission. | Read our story → | **WHO WE ARE:** Our Story · Vision, Mission & Values · Mission 2030 — **OUR PEOPLE:** Leadership & Board · Our Partners · Careers |
-| Programmes | Programmes | One connected journey for India's youth: Learn. Earn. Lead. | See all programmes → | **EDUCATION & UPSKILLING:** Skillzza Schools · Padho Aage — Girl Education · SkillUp Bharat — Youth Skilling — **EMPLOYABILITY & CAREERS:** Career-to-Campus · Her Rise — Women in Leadership — **ENTREPRENEURSHIP & INNOVATION:** Young Founders · Changemaker Fellowship — **AI FOR IMPACT:** AI for Sustainable Development · Salus AI — Innovative Healthcare · AI for Good Fellowships · SDG Launchpad |
+| About Us | About Us | Who we are, why we exist and the people behind the mission. | Read our story → | **WHO WE ARE:** Our Story · Vision, Mission & Values · Mission 2030 - **OUR PEOPLE:** Leadership & Board · Our Partners · Careers |
+| Programmes | Programmes | One connected journey for India's youth: Learn. Earn. Lead. | See all programmes → | **EDUCATION & UPSKILLING:** Skillzza Schools · Padho Aage - Girl Education · SkillUp Bharat - Youth Skilling - **EMPLOYABILITY & CAREERS:** Career-to-Campus · Her Rise - Women in Leadership - **ENTREPRENEURSHIP & INNOVATION:** Young Founders · Changemaker Fellowship - **AI FOR IMPACT:** AI for Sustainable Development · Salus AI - Innovative Healthcare · AI for Good Fellowships · SDG Launchpad |
 | Labs | Labs | Hands-on and virtual labs where young India learns by building. | Set up a lab → | **OUR LABS:** AI Learning Labs · Virtual Labs · Innovation Labs |
 | Scholarships | Scholarships | Up to 90% scholarship on JEE & NEET preparation for deserving students. | Apply now → | **SKILLZZA SCHOLARSHIP:** About the Scholarship · Eligibility & How to Apply · Scholar Stories |
-| Impact | Impact | The lives, campuses and districts moving forward with us. | View impact → | **OUR IMPACT:** Impact Dashboard · Where We Work · Community Projects · Reports & Publications — **STORIES & NEWS:** Stories of Change · News & Events |
-| Get Involved | Get Involved | Change a life — or change a district. | Partner with us → | **PARTNER:** CSR Partnerships · Government & Institutions · Employers & Mentors — **JOIN:** Volunteer · Campus Chapters · Fundraise for Us |
-| Contact Us | — | — | — | Koi dropdown nahi. Ye right side ka highlighted button hai. |
+| Impact | Impact | The lives, campuses and districts moving forward with us. | View impact → | **OUR IMPACT:** Impact Dashboard · Where We Work · Community Projects · Reports & Publications - **STORIES & NEWS:** Stories of Change · News & Events |
+| Get Involved | Get Involved | Change a life - or change a district. | Partner with us → | **PARTNER:** CSR Partnerships · Government & Institutions · Employers & Mentors - **JOIN:** Volunteer · Campus Chapters · Fundraise for Us |
+| Contact Us | - | - | - | Koi dropdown nahi. Ye right side ka highlighted button hai. |
 
 **Har menu ka apna logo color:** About Us = Navy · Programmes = Blue · Labs = Orange · Scholarships = Violet · Impact = Gold · Get Involved = Red.
 Programmes card ke andar columns pillar ke hisaab se colored honge: Education = Blue, Employability = Orange, Entrepreneurship = Red, AI for Impact = Navy.

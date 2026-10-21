@@ -31,4 +31,4 @@ All photographs are from [Pexels](https://www.pexels.com) and used under the [Pe
 | `scholar` | [3231359](https://www.pexels.com/photo/photograph-of-girls-wearing-uniform-3231359/) |
 | `women-livelihood` | [36739505](https://www.pexels.com/photo/empowered-rajasthani-woman-operating-sewing-machine-36739505/) |
 
-These are stand-ins until Skillzza Foundation’s own programme photos are available — swap them by replacing entries in `scripts/photos.json` and running `npm run images`.
+These are stand-ins until Skillzza Foundation’s own programme photos are available - swap them by replacing entries in `scripts/photos.json` and running `npm run images`.

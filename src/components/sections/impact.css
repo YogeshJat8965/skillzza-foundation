@@ -1,0 +1,193 @@
+.impact {
+  background: var(--color-mist);
+}
+.impact-grid {
+  display: grid;
+  gap: 48px;
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  .impact-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: clamp(48px, 6vw, 96px);
+  }
+}
+.impact-title {
+  font-size: var(--text-h1);
+  line-height: var(--text-h1--line-height);
+  letter-spacing: var(--text-h1--letter-spacing);
+  font-weight: 800;
+}
+.impact-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: #fff;
+  border: 1px solid var(--color-line);
+  color: var(--color-muted);
+  font-size: 0.875rem;
+}
+.impact-meta svg {
+  flex: none;
+  color: var(--color-link);
+  font-size: 18px;
+}
+.impact-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 40px;
+}
+.impact-stat {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 24px 22px;
+  overflow: hidden;
+  border-radius: var(--petal-corner);
+  background: #fff;
+  box-shadow: var(--shadow-soft);
+}
+.impact-stat::before {
+  content: '';
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  background: var(--accent);
+}
+.impact-value {
+  color: var(--color-navy);
+  font: 800 clamp(1.5rem, 1.1rem + 1.6vw, 2.375rem) / 1 var(--font-display);
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
+}
+.impact-label {
+  font-size: 0.9375rem;
+  line-height: 1.4;
+}
+
+.impact-map-card {
+  position: relative;
+  padding: clamp(20px, 3vw, 36px);
+  border-radius: var(--radius-feature);
+  background:
+    radial-gradient(70% 60% at 30% 40%, rgb(10 143 240 / 0.1), transparent 70%), #fff;
+  box-shadow: var(--shadow-lift);
+  transition: box-shadow 0.5s var(--ease-out-expo);
+}
+.impact-map-card[data-spotlight] {
+  box-shadow:
+    0 0 0 3px var(--color-gold),
+    var(--shadow-float);
+}
+.impact-map {
+  max-width: 440px;
+  margin-inline: auto;
+}
+.impact-map svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+.map-country {
+  fill: var(--color-navy-100);
+  stroke: #c3cde2;
+  stroke-width: 0.8;
+}
+.map-state {
+  fill: var(--color-blue);
+  stroke: #fff;
+  stroke-width: 0.9;
+  cursor: pointer;
+  opacity: 0;
+  transition:
+    fill 0.3s,
+    opacity 0.7s var(--ease-out-expo);
+  transition-delay: 0s, calc(var(--n) * 90ms + 200ms);
+}
+.is-in .map-state {
+  opacity: 1;
+}
+.map-state[data-hot] {
+  fill: var(--color-red);
+}
+.map-dot-core {
+  fill: #fff;
+  stroke: var(--color-red);
+  stroke-width: 3;
+}
+.map-dot-pulse {
+  fill: var(--color-red);
+  opacity: 0;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+.is-in .map-dot-pulse {
+  animation: map-pulse 2.4s ease-out infinite;
+  animation-delay: calc(var(--n) * 260ms + 800ms);
+}
+.map-dot[data-hot] .map-dot-core {
+  fill: var(--color-gold);
+}
+@keyframes map-pulse {
+  0% {
+    opacity: 0.45;
+    scale: 0.3;
+  }
+  100% {
+    opacity: 0;
+    scale: 1.6;
+  }
+}
+.impact-states {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--color-line);
+}
+.impact-active {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--color-navy);
+  font: 700 0.8125rem/1 var(--font-display);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.impact-active svg {
+  color: var(--color-red);
+  font-size: 16px;
+}
+.impact-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+.impact-chip {
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: var(--color-mist);
+  border: 1px solid var(--color-line);
+  color: var(--color-navy);
+  font: 600 0.875rem/1.2 var(--font-display);
+  cursor: default;
+  transition:
+    background-color 0.3s,
+    color 0.3s,
+    border-color 0.3s;
+}
+.impact-chip[data-hot] {
+  background: var(--color-navy);
+  border-color: var(--color-navy);
+  color: #fff;
+}
+@media (prefers-reduced-motion: reduce) {
+  .map-state {
+    opacity: 1;
+  }
+}

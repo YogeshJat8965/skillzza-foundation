@@ -1,0 +1,124 @@
+.to-top {
+  position: fixed;
+  right: 20px;
+  bottom: calc(20px + env(safe-area-inset-bottom));
+  z-index: 30;
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--color-navy);
+  box-shadow: var(--shadow-lift);
+  opacity: 0;
+  visibility: hidden;
+  translate: 0 16px;
+  transition:
+    opacity 0.4s,
+    visibility 0s 0.4s,
+    translate 0.5s var(--ease-out-expo),
+    bottom 0.5s var(--ease-out-expo);
+}
+.to-top[data-show] {
+  opacity: 1;
+  visibility: visible;
+  translate: 0 0;
+  transition-delay: 0s;
+}
+.to-top-progress {
+  position: absolute;
+  inset: 0;
+  rotate: -90deg;
+}
+.to-top-track,
+.to-top-ring {
+  fill: none;
+  stroke-width: 3;
+}
+.to-top-track {
+  stroke: var(--color-line);
+}
+.to-top-ring {
+  stroke: var(--color-red);
+  stroke-linecap: round;
+  stroke-dasharray: 1;
+  stroke-dashoffset: calc(1 - var(--p, 0));
+}
+.to-top:hover {
+  color: var(--color-red);
+}
+
+.cta-bar {
+  position: fixed;
+  inset: auto 12px calc(12px + env(safe-area-inset-bottom));
+  z-index: 30;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  border-radius: 999px;
+  background: rgb(255 255 255 / 0.86);
+  -webkit-backdrop-filter: saturate(1.6) blur(16px);
+  backdrop-filter: saturate(1.6) blur(16px);
+  border: 1px solid rgb(11 34 84 / 0.08);
+  box-shadow: var(--shadow-float);
+  translate: 0 140%;
+  transition: translate 0.6s var(--ease-out-expo);
+}
+.cta-bar .btn {
+  flex: 1;
+  min-width: 0;
+  padding-inline: 12px;
+  font-size: 0.8125rem;
+}
+.cta-bar .btn:first-child {
+  flex: none;
+}
+.cta-bar .btn-sparkle {
+  display: none;
+}
+.cta-bar[data-show] {
+  translate: 0 0;
+}
+@media (max-width: 1023px) {
+  .to-top[data-lift] {
+    bottom: calc(86px + env(safe-area-inset-bottom));
+  }
+}
+@media (min-width: 1024px) {
+  .cta-bar {
+    display: none;
+  }
+}
+
+.skip-link {
+  position: fixed;
+  left: 16px;
+  top: 12px;
+  z-index: 120;
+  padding: 12px 18px;
+  border-radius: 12px;
+  background: var(--color-navy);
+  color: #fff;
+  font: 700 0.9375rem/1 var(--font-display);
+  translate: 0 -200%;
+  transition: translate 0.3s var(--ease-out-expo);
+}
+.skip-link:focus-visible {
+  translate: 0 0;
+}
+
+.burst {
+  position: fixed;
+  z-index: 200;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+.burst svg {
+  position: absolute;
+  left: -7px;
+  top: -7px;
+  width: 14px;
+  height: 14px;
+}

@@ -100,17 +100,21 @@ function bbox(maxY) {
   return { left, top, width: Math.min(W, x1 + pad) - left, height: Math.min(maxY, y1 + pad) - top };
 }
 
-async function emit(buf, box, name, width) {
-  const base = sharp(buf, { raw: { width: W, height: H, channels: 4 } }).extract(box).resize({ width });
-  await base.clone().webp({ quality: 92, alphaQuality: 100 }).toFile(path.join(OUT, `${name}.webp`));
-  await base.clone().png({ compressionLevel: 9 }).toFile(path.join(OUT, `${name}.png`));
+// One WebP per width for srcset, plus a PNG at the largest width (OG image, docs).
+async function emit(buf, box, name, widths) {
+  const crop = () => sharp(buf, { raw: { width: W, height: H, channels: 4 } }).extract(box);
+  for (const width of widths) {
+    await crop().resize({ width }).webp({ quality: 90, alphaQuality: 100 }).toFile(path.join(OUT, `${name}-${width}.webp`));
+  }
+  await crop().resize({ width: widths.at(-1) }).png({ compressionLevel: 9 }).toFile(path.join(OUT, `${name}.png`));
 }
 
+for (const file of await fs.readdir(OUT)) await fs.rm(path.join(OUT, file));
 const full = bbox(H);
 const nav = bbox(navCut);
-await emit(rgba, full, 'logo-full', 1000);
-await emit(dark, full, 'logo-full-dark', 1000);
-await emit(rgba, nav, 'logo-nav', 560);
-await emit(dark, nav, 'logo-nav-dark', 560);
+await emit(rgba, full, 'logo-full', [1000]);
+await emit(dark, full, 'logo-full-dark', [560, 1000]);
+await emit(rgba, nav, 'logo-nav', [320, 640, 960]);
+await emit(dark, nav, 'logo-nav-dark', [320, 640]);
 
 console.log(`full ${full.width}x${full.height}, nav ${nav.width}x${nav.height} (cut at y=${navCut})`);

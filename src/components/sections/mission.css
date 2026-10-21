@@ -1,0 +1,88 @@
+.mission-wrap {
+  padding-inline: 0;
+}
+.mission {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  background:
+    radial-gradient(60% 70% at 100% 0%, rgb(10 143 240 / 0.22), transparent 60%),
+    radial-gradient(50% 60% at 0% 100%, rgb(123 75 210 / 0.25), transparent 60%), var(--color-navy);
+  will-change: transform;
+}
+.mission-year {
+  position: absolute;
+  right: -2vw;
+  bottom: 0;
+  z-index: -1;
+  font: 800 clamp(9rem, 30vw, 30rem) / 0.8 var(--font-display);
+  letter-spacing: -0.06em;
+  color: transparent;
+  -webkit-text-stroke: 1.5px rgb(255 255 255 / 0.09);
+  user-select: none;
+}
+.mission-petals {
+  position: absolute;
+  left: -120px;
+  top: -120px;
+  z-index: -1;
+  width: 380px;
+  opacity: 0.12;
+  animation: spin 80s linear infinite;
+}
+.mission-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+}
+.mission-star {
+  display: none;
+  width: 120px;
+  flex: none;
+}
+.mission-star .star-rays {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: twinkle 2.8s ease-in-out infinite;
+}
+@media (min-width: 768px) {
+  .mission-star {
+    display: block;
+  }
+}
+.mission-inner {
+  padding-block: clamp(64px, 8vw, 112px);
+}
+.mission-stats {
+  display: grid;
+  gap: 32px;
+  margin-top: clamp(32px, 4.5vw, 56px);
+}
+@media (min-width: 640px) {
+  .mission-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1024px) {
+  .mission-stats {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+.mission-value {
+  color: #fff;
+  font: 800 clamp(3.5rem, 2.6rem + 3vw, 5.25rem) / 1 var(--font-display);
+  letter-spacing: -0.04em;
+}
+.mission-unit {
+  margin-left: 0.18em;
+  color: var(--color-gold);
+  font-size: 0.42em;
+  letter-spacing: -0.02em;
+}
+.mission-label {
+  margin-top: 10px;
+  max-width: 22ch;
+  color: var(--color-navy-200);
+  font-size: 1.0625rem;
+}

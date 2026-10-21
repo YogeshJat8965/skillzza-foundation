@@ -82,7 +82,7 @@ const credits = [
   '|---|---|',
   ...photos.map((p) => `| \`${p.key}\` | [${p.pexelsId}](${p.page}) |`),
   '',
-  'These are stand-ins until Skillzza Foundation’s own programme photos are available — swap them by replacing entries in `scripts/photos.json` and running `npm run images`.',
+  'These are stand-ins until Skillzza Foundation’s own programme photos are available - swap them by replacing entries in `scripts/photos.json` and running `npm run images`.',
   '',
 ];
 await fs.writeFile(path.join(root, 'CREDITS.md'), credits.join('\n'));
