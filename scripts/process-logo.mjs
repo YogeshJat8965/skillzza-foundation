@@ -1,5 +1,5 @@
-// Turns the white-background logo PNG into transparent web variants:
-// full (with tagline), nav (without tagline) and dark-background versions of both.
+// Turns the white-background logo PNG into transparent web variants: the logo exactly as
+// supplied (tagline included) and a dark-background version for the footer and mobile menu.
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
@@ -74,17 +74,9 @@ for (let i = 0; i < N; i++) {
   else if (grey) dark.set([184, 194, 214], i * 4);
 }
 
-const rowInk = new Array(H).fill(0);
-for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) if (rgba[(y * W + x) * 4 + 3] > 128) rowInk[y]++;
-
-// The tagline sits below "FOUNDATION" after a fully empty band of rows.
-let gapStart = Math.round(H * 0.7);
-while (gapStart < H && rowInk[gapStart] > 0) gapStart++;
-const navCut = gapStart + 2;
-
-function bbox(maxY) {
+function bbox() {
   let x0 = W, y0 = H, x1 = 0, y1 = 0;
-  for (let y = 0; y < maxY; y++) {
+  for (let y = 0; y < H; y++) {
     for (let x = 0; x < W; x++) {
       if (rgba[(y * W + x) * 4 + 3] > 8) {
         if (x < x0) x0 = x;
@@ -97,7 +89,7 @@ function bbox(maxY) {
   const pad = 6;
   const left = Math.max(0, x0 - pad);
   const top = Math.max(0, y0 - pad);
-  return { left, top, width: Math.min(W, x1 + pad) - left, height: Math.min(maxY, y1 + pad) - top };
+  return { left, top, width: Math.min(W, x1 + pad) - left, height: Math.min(H, y1 + pad) - top };
 }
 
 // One WebP per width for srcset, plus a PNG at the largest width (OG image, docs).
@@ -110,11 +102,8 @@ async function emit(buf, box, name, widths) {
 }
 
 for (const file of await fs.readdir(OUT)) await fs.rm(path.join(OUT, file));
-const full = bbox(H);
-const nav = bbox(navCut);
-await emit(rgba, full, 'logo-full', [1000]);
-await emit(dark, full, 'logo-full-dark', [560, 1000]);
-await emit(rgba, nav, 'logo-nav', [320, 640, 960]);
-await emit(dark, nav, 'logo-nav-dark', [320, 640]);
+const full = bbox();
+await emit(rgba, full, 'logo-full', [400, 800, 1200]);
+await emit(dark, full, 'logo-full-dark', [400, 560, 1000]);
 
-console.log(`full ${full.width}x${full.height}, nav ${nav.width}x${nav.height} (cut at y=${navCut})`);
+console.log(`logo ${full.width}x${full.height}`);

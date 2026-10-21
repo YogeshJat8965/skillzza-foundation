@@ -36,7 +36,7 @@
   }
 }
 .pl-logo {
-  width: min(74vw, 400px);
+  width: min(80vw, 460px);
   height: auto;
   opacity: 0;
   will-change: transform;

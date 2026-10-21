@@ -1,5 +1,5 @@
 .donate-wrap {
-  padding-block: clamp(80px, 10vw, 140px);
+  padding-block: clamp(64px, 7.5vw, 104px);
 }
 .donate {
   position: relative;

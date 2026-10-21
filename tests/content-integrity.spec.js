@@ -38,8 +38,8 @@ test.beforeEach(async ({ page }) => {
 });
 
 test('every line of content.txt appears verbatim', async ({ page }) => {
-  // Read the page the way a screen reader does: decorative copies (rolling digits, marquee repeats) drop out.
-  await page.addStyleTag({ content: '[aria-hidden="true"] { display: none !important; }' });
+  // Rolling digits are a visual copy of each number; read the plain value that sits beside them instead.
+  await page.addStyleTag({ content: '.odo [aria-hidden="true"] { display: none !important; }' });
   const placeholders = await page.$$eval('[placeholder]', (els) => els.map((el) => el.getAttribute('placeholder')));
   const text = normalise([await page.locator('body').innerText(), ...placeholders].join(' '));
   const missing = contentLines.filter((line) => !text.includes(line));

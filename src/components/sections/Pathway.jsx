@@ -119,7 +119,7 @@ export default function Pathway() {
         <Eyebrow accent="blue">{pathway.eyebrow}</Eyebrow>
         <h2 id="pathway-title" className="pathway-title" data-reveal="words">
           <span className="text-gradient">{pathway.title.lead}</span> {pathway.title.not}
-          <span className="strike">{pathway.title.struck}</span>
+          {pathway.title.struck}
           {pathway.title.end}
         </h2>
         <p className="pathway-body" data-reveal style={{ '--i': 1 }}>

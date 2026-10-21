@@ -2,7 +2,6 @@ import { useRef } from 'react';
 import { mission2030 } from '../../data/content';
 import { useExpandOnScroll } from '../../hooks/useExpandOnScroll';
 import Petals from '../brand/Petals';
-import Star from '../brand/Star';
 import { Eyebrow, Odometer, SplitWords } from '../ui/primitives';
 import './mission.css';
 
@@ -25,7 +24,6 @@ export default function Mission2030() {
                 <SplitWords text={mission2030.title} />
               </h2>
             </div>
-            <Star className="mission-star" />
           </div>
           <ul className="mission-stats">
             {mission2030.stats.map((stat, i) => (

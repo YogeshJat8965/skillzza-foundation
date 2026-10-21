@@ -3,20 +3,22 @@ import { finePointer, prefersReducedMotion } from '../lib/motion';
 import { scrollToId } from '../lib/scroll';
 import { starBurst } from '../lib/burst';
 
-// Page-wide behaviour wired once: reveal-on-scroll, in-page links, button feedback, magnetic CTAs.
+// Page-wide behaviour wired once: replaying reveal-on-scroll, in-page links, button feedback, magnetic CTAs.
 export function useGlobalInteractions() {
   useEffect(() => {
-    const io = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (!entry.isIntersecting) return;
-          entry.target.classList.add('is-in');
-          io.unobserve(entry.target);
-        });
-      },
+    // Reveals replay: an element animates in each time it enters, and resets once it has fully left.
+    const show = new IntersectionObserver(
+      (entries) => entries.forEach((entry) => entry.isIntersecting && entry.target.classList.add('is-in')),
       { rootMargin: '0px 0px -8% 0px', threshold: 0.12 },
     );
-    const observe = () => document.querySelectorAll('[data-reveal]:not(.is-in)').forEach((el) => io.observe(el));
+    const hide = new IntersectionObserver((entries) =>
+      entries.forEach((entry) => !entry.isIntersecting && entry.target.classList.remove('is-in')),
+    );
+    const observe = () =>
+      document.querySelectorAll('[data-reveal]').forEach((el) => {
+        show.observe(el);
+        hide.observe(el);
+      });
     observe();
     let queued = 0;
     const mo = new MutationObserver(() => {
@@ -25,7 +27,8 @@ export function useGlobalInteractions() {
     });
     mo.observe(document.body, { childList: true, subtree: true });
     return () => {
-      io.disconnect();
+      show.disconnect();
+      hide.disconnect();
       mo.disconnect();
       cancelAnimationFrame(queued);
     };

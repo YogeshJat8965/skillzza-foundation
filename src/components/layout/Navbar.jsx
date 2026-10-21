@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { PiCaretDownBold } from 'react-icons/pi';
-import { logoNav, logoNavDark } from '../brand/logos';
+import { logoFull, logoFullDark } from '../brand/logos';
 import { contactCta, navigation } from '../../data/navigation';
 import { onSectionsReady } from '../../lib/ready';
 import { startScroll, stopScroll } from '../../lib/scroll';
@@ -177,8 +177,8 @@ export default function Navbar() {
         <div className="nav-shell">
           <nav className="nav-bar" aria-label="Main">
             <a href="#top" className="nav-logo">
-              <img id="nav-logo" className="logo-light" {...logoNav} sizes="140px" alt="Skillzza Foundation" fetchPriority="high" />
-              <img className="logo-dark" {...logoNavDark} sizes="140px" alt="" />
+              <img id="nav-logo" className="logo-light" {...logoFull} sizes="170px" alt="Skillzza Foundation" fetchPriority="high" />
+              <img className="logo-dark" {...logoFullDark} sizes="170px" alt="" />
             </a>
 
             <div className="nav-list-wrap" onMouseLeave={() => setHover(null)}>

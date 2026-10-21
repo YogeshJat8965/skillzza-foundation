@@ -13,7 +13,7 @@
 .mission-year {
   position: absolute;
   right: -2vw;
-  bottom: 0;
+  bottom: clamp(16px, 2vw, 32px);
   z-index: -1;
   font: 800 clamp(9rem, 30vw, 30rem) / 0.8 var(--font-display);
   letter-spacing: -0.06em;
@@ -36,23 +36,9 @@
   justify-content: space-between;
   gap: 24px;
 }
-.mission-star {
-  display: none;
-  width: 120px;
-  flex: none;
-}
-.mission-star .star-rays {
-  transform-box: fill-box;
-  transform-origin: center;
-  animation: twinkle 2.8s ease-in-out infinite;
-}
-@media (min-width: 768px) {
-  .mission-star {
-    display: block;
-  }
-}
+
 .mission-inner {
-  padding-block: clamp(64px, 8vw, 112px);
+  padding-block: clamp(52px, 6.5vw, 88px);
 }
 .mission-stats {
   display: grid;

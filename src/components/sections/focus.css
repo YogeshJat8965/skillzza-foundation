@@ -1,6 +1,6 @@
 .focus-stack {
   position: relative;
-  padding-block: clamp(8px, 2vw, 24px) clamp(80px, 10vw, 140px);
+  padding-block: clamp(8px, 2vw, 24px) clamp(64px, 7.5vw, 104px);
 }
 .focus-stack > article ~ article {
   margin-top: 28px;

@@ -1,5 +1,5 @@
 import { useLayoutEffect, useRef, useState } from 'react';
-import { logoNav } from '../brand/logos';
+import { logoFull } from '../brand/logos';
 import Petals from '../brand/Petals';
 import { gsap, prefersReducedMotion } from '../../lib/motion';
 import { markReady } from '../../lib/ready';
@@ -84,7 +84,7 @@ export default function Preloader() {
       <div className="pl-bg" />
       <div className="pl-center">
         <Petals className="pl-petals" />
-        <img className="pl-logo" {...logoNav} sizes="(max-width: 540px) 74vw, 400px" alt="" />
+        <img className="pl-logo" {...logoFull} sizes="(max-width: 540px) 80vw, 460px" alt="" />
       </div>
     </div>
   );

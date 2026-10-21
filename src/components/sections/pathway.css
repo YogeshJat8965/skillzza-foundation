@@ -94,7 +94,7 @@
 
 /* ---------- Stacked mode (mobile, tablets, reduced motion) ---------- */
 .pathway[data-mode='stack'] {
-  padding-bottom: clamp(80px, 10vw, 140px);
+  padding-bottom: clamp(64px, 7.5vw, 104px);
 }
 .pathway[data-mode='stack'] .pathway-track {
   position: relative;
